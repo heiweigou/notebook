@@ -1,0 +1,21 @@
+{
+  "name": "notebook",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "bootstrap": "^4.0.0",
+    "concurrently": "^3.5.1",
+    "password-validator": "^4.0.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-scripts": "1.1.1",
+    "validate": "^3.1.0",
+    "validator": "^9.4.1"
+  },
+  "scripts": {
+    "react-start": "react-scripts start",
+    "start": "concurrently \"yarn react-start\" \"cd server && yarn start\"",
+    "react-build": "react-scripts build",
+    "build": "concurrently \"yarn react-build\" \"cd server && yarn build\""
+  }
+}
