@@ -1,0 +1,42 @@
+.navList {
+    overflow: hidden;
+    background-color: orange;
+    color: white;
+}
+
+.navItem {
+    float: left;
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+}
+
+.navItem:hover {
+
+    color: #fc6d63;
+    border-bottom: solid deepskyblue 1px;
+}
+
+.search {
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+}
+
+.search input {
+    margin-right: 10px;
+
+}
+
+.search-btn {
+    border-radius: 10%;
+    border: 2px white solid;
+    padding: 5px 20px;
+
+}
+
+.search-btn:hover {
+    color: orange!important;
+    background-color: white;
+    padding: 5px 20px;
+}

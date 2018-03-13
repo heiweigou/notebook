@@ -2,6 +2,7 @@
  * Created by jiaow on 10/03/2018.
  */
 import React from 'react'
+
 class Login extends React.Component{
     render(){
         return(
@@ -21,6 +22,8 @@ class Login extends React.Component{
                         <input type="submit" className="btn btn-primary float-right" value='login'/>
                     </div>
                 </form>
+
+
             </div>
         )
     }

@@ -4,13 +4,15 @@
 import React from 'react';
 import Login from './Login'
 import SignUp from './SignUp'
+import Header from './Header'
 
 class App extends React.Component{
     render(){
         return(
-            <div className='container'>
-                <Login/>
-                <SignUp/>
+            <div>
+                <Header/>
+                {/*<Login/>*/}
+                {/*<SignUp/>*/}
             </div>
         )
     }
