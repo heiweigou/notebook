@@ -4,29 +4,34 @@
 import React from 'react'
 import './Header.css'
 import {BrowserRouter  as Router,Route, Link} from 'react-router-dom';
-
+import Education from './Education'
 
 function NavigationList() {
     return (
-        <Router>
-        <ul className="navList">
+        <div>
+            <Router>
+                <ul className="navList">
 
-            <li className="navItem"><a ref='#'>Home</a></li>
-            <li className="navItem"><a ref='#'>Education</a></li>
-            <li className="navItem"><a ref='#'>Work Experience</a></li>
-            <li className="navItem"><a ref='#'>Contact Me</a></li>
-            <li className="navItem"><a ref='#'>About</a></li>
+                    <li className="navItem"><a ref='#'>Home</a></li>
+                    <li className="navItem"><a ref='#'>Education</a></li>
+                    <li className="navItem"><a ref='#'>Work Experience</a></li>
+                    <li className="navItem"><a ref='#'>Contact Me</a></li>
+                    <li className="navItem"><a ref='#'>About</a></li>
 
-                <li className="search float-right">
+                    <li className="search float-right">
 
-                    <input className="form-control"/>
-                    <a className="search-btn" ref='#'>search</a>
+                        <input className="form-control"/>
+                        <a className="search-btn" ref='#'>search</a>
 
-                </li>
+                    </li>
 
-        </ul>
+                </ul>
 
-        </Router>
+            </Router>
+                <Education/>
+
+        </div>
+
     )
 }
 
